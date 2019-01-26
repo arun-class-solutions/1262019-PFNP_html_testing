@@ -1,0 +1,26 @@
+/* make the entire background of the page blue */
+body {
+  background-color: blue;
+}
+
+/* select the ID "website-title" that is written as an attribute in the HTML */
+/* the pound sign "#" denotes an ID */
+#website-title {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-style: italic;
+}
+
+/* select the "animated-divs" class from the HTML */
+.animated-divs {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+}
+
+.animated-divs:hover {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(360deg);
+}
